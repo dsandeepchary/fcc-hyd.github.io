@@ -264,6 +264,12 @@ section .issue .body p {
   padding: 0 10px;
 }
 
+@media (max-width: 767px) {
+  section .issue .body p {
+    text-align: left;
+  }
+}
+
 section .issue .body img {
   width: 100%;
 }
